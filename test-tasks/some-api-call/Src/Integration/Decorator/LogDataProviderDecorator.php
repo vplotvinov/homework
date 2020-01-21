@@ -10,7 +10,7 @@ class LogDataProviderDecorator extends AbstractDataProviderDecorator
     /**
      * @var LoggerInterface
      */
-    public $logProvider;
+    private $logProvider;
 
     /**
      * @param LoggerInterface $logger

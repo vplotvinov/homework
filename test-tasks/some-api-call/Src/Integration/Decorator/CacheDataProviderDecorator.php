@@ -11,7 +11,7 @@ class CacheDataProviderDecorator extends AbstractDataProviderDecorator
     /**
      * @var CacheItemPoolInterface
      */
-    public $cacheProvider;
+    private $cacheProvider;
 
     /**
      * @param CacheItemPoolInterface $cacheProvider
